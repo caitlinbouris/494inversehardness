@@ -1,0 +1,39 @@
+-----3/30/26 
+
+> Python script made for calculating the hardness of an inputted material (“HardnessCalculationTest.ipynb”) 
+
+> Used formula H5 from Source 1 in “Research Summary Doc” 
+
+-----4/5/26 
+
+> Python script that calculates hardness and plots hardness vs density for a refined set of materials from Materials Project (“GetFeatures1.ipynb”) 
+
+> Density is the most simple/useful property I could think of for this project. Ex. an end goal could be to find the lowest and highest density material for the desired hardness within a 	certain tolerance. 
+
+		- Adjustable step size for collecting data from Materials Project. Step size 1 (smallest) seems to work fine when using stable materials. 
+
+		- Saved results in a csv file (“mp_hardness_data.csv”) 
+
+> Python script that grabs molecular features of the above dataset (“GetFeatures2.ipynb”) 
+
+		- Converts the formula in words to numerical formula using StrToComposition 
+
+		- Saved results in a csv file (takes about 10 minutes, so we don’t have to run this again) (“mp_hardness_with_features.csv”) 
+
+> Python script (“RFtest1.ipynb”). This is the first iteration of the forward model using Random Forest.  
+
+		- Tried 2 different RF models- consistently getting R^2 of 0.71-0.73 
+
+		- Highest feature importance is mean melting temp with 0.2 
+
+> Python script (“GetFeatures3.ipynb”). Fresh csv file including more features. Aim to improve R-squared value. 
+
+		- Saved csv file "mp_hardness_advanced_v3.csv" 
+
+> Python script (“RFtest2.ipynb”). Same code as RFtest1 but uses the new dataset 
+
+		- Small improvement: R^2 of 0.74-0.75 
+
+ 
+
+ 
