@@ -33,6 +33,14 @@
 > Python script (“RFtest2.ipynb”). Same code as RFtest1 but uses the new dataset 
 
 		- Small improvement: R^2 of 0.74-0.75 
+-----4/7/26 
+
+> Python script ("RFtest3.ipynb").
+		- Same RF model as tests 1 and 2
+		- Follows regression standards of using the sqrt of the total # of features
+		- Uses top 5 features from the 18 extracted from the dataset
+		- R^2 value of 0.67
+		- RMSE of 3.60 GPa
 
  
 
