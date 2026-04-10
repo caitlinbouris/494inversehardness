@@ -41,6 +41,17 @@
 		- Uses top 5 features from the 18 extracted from the dataset
 		- R^2 value of 0.67
 		- RMSE of 3.60 GPa
+-----4/10/26 
+
+> Python script (“DataCleaning1.ipynb”).  
+
+		- Similar to “GetFeatures” scripts, but now includes Poisson's ratio, crystal structure, and energy above hull 
+		- 200,487 materials in Materials Project 
+		- Initial number:6087 materials with elasticity data. 
+		- Reduction 1: 6087 materials  after filtering for stability and valid moduli.
+		- Reduction 2:  6087 materials after dropping rows with missing values (NaN)
+		- Final size: 6087
+		- Saved to “mp_hardness_dataset4.csv” 
 
  
 
