@@ -52,7 +52,13 @@
 		- Reduction 2:  6087 materials after dropping rows with missing values (NaN)
 		- Final size: 6087
 		- Saved to “mp_hardness_dataset4.csv” 
+-----4/15/26 
 
+> Python script (“RFtest4.ipynb”) 
+
+		- Ran above dataset in random forest 
+		- R^2 value of 0.92 
+		- RMSE of 1.73 GPa 
  
 
  
